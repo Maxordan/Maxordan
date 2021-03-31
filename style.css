@@ -1,0 +1,62 @@
+.header {
+    background-color: black;
+    display: flex;
+    height: 50px;
+    width: 1670px;
+    align-items: center;
+    justify-content: center;
+}
+#water {
+   position: relative;
+    height: 460px;
+    width: 1670px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo {
+    color: white;
+    font-family: arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    
+    }
+    .logo h1 {
+        font-size: 15px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    }
+    .menu {
+        color: rgb(180, 180, 180);
+        font-family: arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        margin-left: 1490px;
+    }
+    .menu #men {
+        color: rgb(180, 180, 180);
+        height: 20px;
+        width: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3px;
+
+    }
+    .main {
+        font-family: arial, sans-serif;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+
+    }
