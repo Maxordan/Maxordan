@@ -1,0 +1,79 @@
+.header {
+    background-color: black;
+    height: 50px;
+    width: 1670px;
+    
+    
+}
+#water {
+    height: 550px;
+    width: 1670px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    
+}
+
+    h1 {
+        font-family: eras itc;
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items:center;
+        justify-content: flex-start;
+        margin-top: -40px;
+        margin-left: 25px;
+
+        }
+
+        #menu {
+            display: flex;
+            align-items:center;
+            justify-content: flex-end;  
+            width: 13px;
+        }
+    h2 {
+        font-family: eras itc;
+        font-size: 15px;
+        color: rgb(202, 202, 202);
+        display:flex;
+        align-items:center;
+        justify-content: flex-end;
+        margin-top: -33px;
+        margin-right: 25px;
+    }
+     h3 {
+        font-family: eras itc;
+        font-size: 55px;
+        color: white;
+        margin-top: -350px;
+        padding-bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+        position: relative;
+        }
+        p {
+            font-family: eras itc;
+            font-size: 35px;
+            color: rgb(202, 248, 237);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+            position: relative;
+            margin-top: -50px;
+            text-align: center;
+        
+        }
+        @media screen and (max-width: 1280px)
+        {
+            #water { width: 100%;}
+        }
+        @media screen and (max-width: 200px)
+        {
+            .header, #water, .logo, h1, .menu { width: 100%;}
+        }
+
