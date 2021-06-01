@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>rubystar.fr</title>
+    <link rel="stylesheet" href="contact.css/contact.css">
+    
+</head>
+
+<body>
+
+  <!--nav barre-->
+    <div class="barre">
+        <div class="logo">
+            <img class="ruby" src="image ruby du groupe2.png">
+            <img class="rubystar" src="rubistar.png">
+        </div>
+        
+        <!--menu-->
+        <div class="menu_burger">
+            <ul id="menu">
+                <li><a class="mot" href="Site groupe fictif.HTML">ACCEUIL</a></li>
+                <li><a class="mot" href="groupe.HTML">GROUPE</a></li>
+                <li><a class="mot" href="albums.HTML">ALBUMS</a></li>
+                <li><a class="mot" href="concert.HTML">CONCERT</a></li>
+                
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+        </div>
+    <!--barre de recherche-->
+        <div class="recherche">
+            <div class="flexbox">
+                <div class="search">
+                  <div>
+                    <input type="search" placeholder="Tape ta recherche ici" required name="led">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div id="bordure">
+    <!--formulaire contact-->
+    <h1 class="contact"><U>CONTACT</U></h1>
+    <form action="#" method="#">
+        <div>
+            <label for="fname">Prénom :</label>
+            <input type="text" id="fname" name="firstname" value="">
+        </div>
+        <div>
+            <label for="lname">Nom :</label>
+            <input type="text" id="lname" name="lastname">
+        </div>
+        <div>
+            <label for="pays">Pays :</label>
+            <select id="pays" name="pays">
+                <option value="France">France</option>
+                <option value="usa">USA</option>
+                <option value="Afrique">Afrique</option>
+                <option value="Asie">Asie</option>
+            </select>
+        </div>
+        <div>
+            <label for="msg">Sujet :</label>
+            <textarea id="msg" name="usermessage"></textarea>
+        </div>
+        <div class="btn">
+            <button id="btnPopup" class="btnPopup">ENVOYER</button>
+        </div>
+            <div id="overlay" class="overlay">
+                <div id="popup" class="popup">
+                    <h2>Formulaire pop up<span id="btnClose" class="btn close">&times;</span></h2>
+                    <p id="primo"></p>
+                    <p id="secondo"></p>
+                    <p id="tertio"></p>
+                    <p id="quatro"></p>
+                </div>
+            </div>
+    </form>
+    
+</div>
+    <!--Fin formulaire contact-->
+    <!--footer-->
+    <div class="footer">
+        <p>©Rubystar.fr tous droits réservés</p>
+        
+        <div class="liens"><ul>
+            <li><a href="https://fr-fr.facebook.com/"><img class="facebook" src="icones/facebook.png"></a></li>
+            <li><a href="https://twitter.com/"><img class="twitter" src="icones/twitter.png"></a></li>
+            <li><a href="https://www.youtube.com"><img class="youtube" src="icones/youtube.png"></a></li>
+            <li><a href="https://www.instagram.com"><img class="instagram" src="icones/instagram.png"></a></li>
+            <li><a href="https://soundcloud.com"><img class="soundcloud" src="icones/soundcloud.png"></a></li>
+            <li><a href="https://mail.fr/fr/"><img class="e-mail" src="icones/e-mail.png"></a></li>
+        </ul>
+        </div>
+    </div>
+     <script src="contact.js/contact.js"></script>
+</body>
+</html>
