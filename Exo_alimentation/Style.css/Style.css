@@ -1,0 +1,34 @@
+
+#barre{
+    margin-top: -8px;
+    background: red;
+    width: 120%;
+    height: 50px;
+    margin-left: -10px;
+}
+#Titre {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    font-family: impact;
+    font-size: 35px;
+    color: white;
+
+}
+#table {
+    margin-top: 242px;
+    
+}
+th {
+    background: rgb(2, 250, 238);
+    width: 272px;
+    font-family: arial;
+    line-height: 55px;
+}
+td {
+    background: rgb(2, 250, 238);
+    width: 272px;
+    font-family: arial;
+    line-height: 55px;
+}
